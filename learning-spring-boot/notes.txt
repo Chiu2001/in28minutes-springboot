@@ -1,0 +1,13 @@
+log 級別(在application.proprties中設置)
+
+dev
+logging.level.org.springframework=trace
+
+prod
+logging.level.org.springframework=info
+
+1.trace (all)
+2.debug (debug, info, warning, error)
+3.info (info, warning, error)
+4.warning(warning, error)
+5.error(error)
